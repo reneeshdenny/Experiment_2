@@ -11,6 +11,11 @@
             }
             table,tr,td{
                 border: 1px solid;
+                border-collapse: collapse;
+            }
+            body{
+                border: 1px solid;
+                padding: 30px;
             }
         </style>
     </head>
@@ -37,8 +42,8 @@
                 <input type="radio" id="Gender" name="Gender">Female</input>
             </form>
         </fieldset >
-        <progress min="0" value="20" max="100" id="progress1"></progress>
-        <label for="progress1">&nbsp; 20% out of 100%</label>
+        <input type="range" min="0" value="20" max="100" id="range1"></input>
+        <label for="range1">&nbsp; 20% out of 100%</label>
         <fieldset style="width : 30%">
             <legend>Address Details</legend>
             <br>
@@ -53,8 +58,8 @@
                 <textarea name="ZipCode" id="Zipcode" cols="15" rows="1" placeholder="only 6 numbers"></textarea></p>
             </form>
         </fieldset >
-        <progress min="0" value="40" max="100" id="progress2"></progress>
-        <label for="progress2">&nbsp; 40% out of 100%</label>
+        <input type="range" min="0" value="40" max="100" id="range2"></input>
+        <label for="range2">&nbsp; 40% out of 100%</label>
         <fieldset style="width : 40%">
             <legend>Contact Information</legend>
             <form>
@@ -68,8 +73,8 @@
                 <input type="url" id="Website" placeholder="Valid url"></p>
             </form>
         </fieldset>
-        <progress min="0" value="60" max="100" id="progress3"></progress>
-        <label for="progress3">&nbsp; 60% out of 100%</label>
+        <input type="range" min="0" value="60" max="100" id="range3"></input>
+        <label for="range3">&nbsp; 60% out of 100%</label>
         <fieldset style="width : 70%">
             <legend>Education Details</legend>
             <form >
@@ -138,15 +143,15 @@
         </table>
         </form>
         </fieldset>
-        <progress min="0" value="80" max="100" id="progress3"></progress>
-        <label for="progress3">&nbsp; 80% out of 100%</label>
+        <input type="range" min="0" value="80" max="100" id="range4"></input>
+        <label for="range4">&nbsp; 80% out of 100%</label>
         <fieldset style="width : 50%">
             <label style="display:contents ;" for="f">Attack your file in .doc or .pdf format</label>
             <input type="file" ></p>
             <td><input type="checkbox" name="fill">Filled all the details</input></td>
         </fieldset>
-        <progress min="0" value="100" max="100" id="progress3"></progress>
-        <label for="progress3">&nbsp; 100% out of 100%</label></p>
-        <!--<center><input style="text-align: center;"type="submit"></center>-->
+        <input type="range" min="0" value="100" max="100" id="range5"></input>
+        <label for="range5">&nbsp; 100% out of 100%</label></p>
+        <center><input style="text-align: center;"type="submit"></center>
     </body>
 </html>
